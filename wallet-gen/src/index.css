@@ -1,0 +1,54 @@
+/* Style for the container wrapping the entire content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Spacing between elements */
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.05); /* Subtle background for content */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading for sections */
+h2 {
+  font-size: 2em;
+  margin: 0;
+  color: #646cff;
+}
+
+/* Paragraph styling for mnemonic and balance display */
+p {
+  font-size: 1.2em;
+  margin: 0;
+  word-break: break-word; /* Ensure long mnemonics wrap correctly */
+  color: rgba(158, 23, 23, 0.87);
+}
+
+/* Balance specific styling */
+.balance {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+/* Buttons: Reuse styles from index.css but add some spacing */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 300px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  color: #fff;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: #535bf2;
+}
